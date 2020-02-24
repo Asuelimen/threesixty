@@ -189,6 +189,7 @@ div {
     top: 43.53%;
     bottom: 50.07%;
     width: 314px;
+    padding: 20px;
     background: rgba(196, 196, 196, 0.05);
     border: 1px solid #DEDFEC;
     box-sizing: border-box;
@@ -198,7 +199,7 @@ div {
 .name::placeholder {
     width: 98px;
     height: 16px;
-    padding: 15px;
+    padding: 5px;
     color: #BDBEC1;
     font-family: Roboto;
     font-style: normal;
@@ -210,7 +211,7 @@ div {
 .email:focus,
 .pass:focus {
     border-radius: 10px;
-    margin: 1px;
+    /* margin: 1px; */
     outline: none;
 }
 
@@ -221,6 +222,7 @@ div {
     top: 52.71%;
     bottom: 40.89%;
     width: 314px;
+    padding: 20px;
     background: rgba(196, 196, 196, 0.05);
     border: 1px solid #DEDFEC;
     box-sizing: border-box;
@@ -230,7 +232,7 @@ div {
 .username::placeholder {
     width: 98px;
     height: 16px;
-    padding: 15px;
+    padding: 5px;
     color: #BDBEC1;
 }
 
@@ -241,6 +243,7 @@ div {
     top: 61.89%;
     bottom: 31.71%;
     width: 314px;
+    padding: 20px;
     background: rgba(196, 196, 196, 0.05);
     border: 1px solid #DEDFEC;
     box-sizing: border-box;
@@ -250,7 +253,7 @@ div {
 .email::placeholder {
     width: 98px;
     height: 16px;
-    padding: 15px;
+    padding: 5px;
     color: #BDBEC1;
 }
 
@@ -261,6 +264,7 @@ div {
     top: 71.07%;
     bottom: 22.53%;
     width: 314px;
+    padding: 20px;
     background: rgba(196, 196, 196, 0.05);
     border: 1px solid #DEDFEC;
     box-sizing: border-box;
@@ -270,7 +274,7 @@ div {
 .pass::placeholder {
     width: 98px;
     height: 16px;
-    padding: 15px;
+    padding: 5px;
     color: #BDBEC1;
     font-family: Roboto;
     font-style: normal;
@@ -308,5 +312,9 @@ div {
 }
 
 .alreadyHave span {
+    color: #6891FC;
+}
+
+a:link {
     color: #6891FC;
 }
